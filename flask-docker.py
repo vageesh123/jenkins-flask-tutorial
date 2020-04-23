@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Changed it up a bit!again <a href="/vageesh">click here to call vageesh</a>' 
+    return 'Changed it up a bit!again <a href="google.com">click here to call vageesh</a>' 
 
 
 if __name__ == '__main__':
